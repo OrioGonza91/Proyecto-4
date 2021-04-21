@@ -1,0 +1,102 @@
+body
+{
+	margin: 0;
+}
+
+header
+{
+	background: red;
+	position: relative;
+	display: block;
+	widows: 100%;
+	height: 70px;
+	background: red;
+}
+
+header ul:nth-child(1)
+{
+	float: left;
+}
+
+header ul:nth-child(2) {
+	float: right;
+}
+
+header ul li
+{
+	float: left;
+	display: block;
+}
+
+nav
+{
+	background: black;
+	display: block;
+	position: relative;
+	widows: 100%;
+	height: 100px;
+}
+
+nav ul
+{
+	display: block;
+	margin: auto;
+	position: absolute;
+	left: 0
+	right: 0;
+}
+
+nav ul li
+{
+	float: left;
+	display: block;
+}
+
+nav ul li a
+{
+	padding: 15px;
+	margin: 15px;
+	position: relative;
+	display: block;
+}
+
+aside
+{
+	display: block;
+	width: 20%;
+	float: left;
+	min-height: 600px;
+}
+
+main
+{
+	display: block;
+	width: 80%;
+	float: left;
+	min-height: 600px
+}
+
+footer
+{
+	display: block;
+	float: left;
+	width: 100%;
+	height: 150px;
+	background: black;
+	color: #fff;
+}
+
+footer p
+{
+	padding: 25px
+}
+
+article
+{
+	padding: 15px;
+}
+
+article img
+{
+	width: 100%;
+}
